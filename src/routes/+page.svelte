@@ -6,21 +6,25 @@
 </script>
 
 <div
-  class="container flex justify-center items-center px-4 mt-20 sm:mt-0"
+  class="container flex justify-center items-center px-4 pt-40 sm:pt-0"
+  id="home"
   style="min-height:100vh"
 >
   <Start />
 </div>
 
-<div class="container mt-40 px-4">
+<div class="container pt-40 px-4" id="projects">
   <Projects />
 </div>
 
-<div class="mt-40 py-40 w-full px-4 bg-gray-900 flex justify-center">
+<div
+  class="mt-40 py-40 w-full px-4 bg-gray-900 flex justify-center"
+  id="education"
+>
   <Education />
 </div>
 
-<div class="container mt-40 px-4">
+<div class="container pt-40 px-4" id="work">
   <Work />
 </div>
 

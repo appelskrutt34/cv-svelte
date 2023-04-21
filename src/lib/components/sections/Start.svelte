@@ -15,7 +15,6 @@
 
 {#if draw}
   <section
-    id="home"
     aria-label="Home"
     in:fade={{ duration: 800 }}
     class="flex flex-col md:flex-row gap-6 justify-center items-center w-full"
@@ -48,7 +47,7 @@
         >
       </div>
       <div
-        class="md:flex md:flex-row gap-1 justify-center items-center h-full w-full"
+        class="md:flex md:flex-row gap-1 justify-center h-full w-full"
         style="max-width: 550px;"
       >
         <div class="flex flex-col gap-1 text-center w-full">
@@ -57,12 +56,14 @@
           <PercentageBar text="ASP.Net MVC" level="Advanced" />
           <PercentageBar text="Unity" level="Intermediate" />
           <PercentageBar text="Azure DevOps" level="Intermediate" />
+          <PercentageBar text="Javascript" level="Advanced" />
         </div>
         <div class="flex flex-col gap-1 text-center w-full mt-2 md:mt-0">
-          <PercentageBar text="Javascript" level="Advanced" />
           <PercentageBar text="Tailwind" level="Advanced" />
           <PercentageBar text="Sveltekit" level="Advanced" />
           <PercentageBar text="HTML & CSS" level="Advanced" />
+          <PercentageBar text="Responsive design" level="Advanced" />
+          <PercentageBar text="WCAG" level="Advanced" />
           <PercentageBar text="React" level="Intermediate" />
         </div>
       </div>

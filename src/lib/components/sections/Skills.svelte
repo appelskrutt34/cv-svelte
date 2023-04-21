@@ -12,7 +12,6 @@
 
 {#if draw}
   <section
-    id="skills"
     in:fade
     aria-label="Skills"
     class="flex flex-col justify-center text-center"

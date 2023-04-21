@@ -7,7 +7,6 @@
 </script>
 
 <section
-  id="education"
   aria-label="Education"
   class="flex justify-center text-center flex-col text-gray-50 container"
 >
