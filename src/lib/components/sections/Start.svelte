@@ -10,7 +10,7 @@
   });
 
   let draw = false;
-  let showImage = false;
+  let image;
 </script>
 
 {#if draw}
@@ -21,12 +21,12 @@
     class="flex flex-col md:flex-row gap-6 justify-center items-center w-full"
   >
     <img
+      bind:this={image}
       in:fade={{ duration: 800 }}
       on:load={() => {
-        showImage = true;
+        image.classList.add("opacity-one");
       }}
-      class={(showImage ? " " : "opacity-0 ") +
-        "opacity-100 transition-opacity ease-in duration-400 max-h-96 sm:px-10"}
+      class="opacity-zero transition-opacity ease-in duration-400 max-h-96 sm:px-10"
       src="./111.png"
       alt="Avatar"
     />

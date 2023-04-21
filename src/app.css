@@ -31,6 +31,13 @@ p,ul,li {
   max-width: 1000px;
 }
 
+
+.opacity-one {
+  opacity: 1 !important;
+}
+.opacity-zero {
+  opacity: 0;
+}
 @media (max-width: 640px) { 
   body {
     font-size: 14px;
