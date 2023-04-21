@@ -6,6 +6,7 @@
   import Fire from "../icons/Fire.svelte";
   import Burger from "../icons/Burger.svelte";
   import { fly } from "svelte/transition";
+  import XMark from "../icons/XMark.svelte";
 
   let openMenu = false;
 
@@ -45,7 +46,8 @@
         on:click={() => {
           openMenu = !openMenu;
         }}
-        ><Burger />
+      >
+        {#if openMenu} <XMark /> {:else} <Burger /> {/if}
       </button>
     </div>
 
