@@ -4,11 +4,13 @@
   import Github from "$lib/components/icons/Github.svelte";
   import Linkedin from "$lib/components/icons/Linkedin.svelte";
   import { onMount } from "svelte";
+
   onMount(() => {
     draw = true;
   });
 
   let draw = false;
+  let showImage = false;
 </script>
 
 {#if draw}
@@ -18,8 +20,16 @@
     in:fade={{ duration: 800 }}
     class="flex flex-col md:flex-row gap-6 justify-center items-center w-full"
   >
-    <img class="max-h-96 sm:px-10" src="./111.png" alt="" />
-
+    <img
+      in:fade={{ duration: 800 }}
+      on:load={() => {
+        showImage = true;
+      }}
+      class={(showImage ? " " : "opacity-0 ") +
+        "opacity-100 transition-opacity ease-in duration-400 max-h-96 sm:px-10"}
+      src="./111.png"
+      alt="Avatar"
+    />
     <div class="w-full mt-2 sm:mt-0">
       <h1>Name: Ebba Svensson</h1>
       <h2 class="mb-1">Role: Web developer</h2>
