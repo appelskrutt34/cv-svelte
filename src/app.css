@@ -5,16 +5,34 @@
 @layer base {
   h1 {
     font-weight: 700;
-    font-size: 1.875em !important;
+    font-size: 1.875em;
+    margin: -.2em 0;
+    padding: 0;
 
   }
   h2 {
     font-weight: 700;
-    font-size: 1.4em !important;
+    font-size: 1.4em;
+    padding: 0;
 
   }
   h3 {
     font-weight: 700;
-    font-size: 1.25em !important;
+    font-size: 1.25em;
   }
 }
+
+p,ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+@media (max-width: 640px) { 
+  body {
+    font-size: 14px;
+  }
+ }
