@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="container flex justify-center items-center px-4 pt-40 sm:pt-0"
+  class="container flex justify-center items-center px-4 pt-32 sm:pt-0"
   id="home"
   style="min-height:100vh"
 >
