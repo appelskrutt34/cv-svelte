@@ -17,7 +17,7 @@
       block: top ? "start" : "center",
       behavior: "smooth",
     });
-    openMenu = !openMenu;
+    openMenu = false;
   }
 </script>
 
