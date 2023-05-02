@@ -3,7 +3,7 @@
   viewBox="0 0 640 512"
   width="13px"
   height="13px"
-  fill="#19212e"
+  fill="#9333ea"
 >
   <title>Education</title>
   <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path

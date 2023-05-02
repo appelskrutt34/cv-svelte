@@ -22,7 +22,7 @@
 </script>
 
 <nav
-  class="w-full flex justify-center fixed top-0 md:bg-gray-50 z-50"
+  class="w-full flex justify-center fixed top-0 md:backdrop-blur-xl md:bg-gray-50/50 z-50"
   aria-label="Main navigation"
 >
   <div class="justify-center gap-16 container hidden md:flex px-4 py-6">
@@ -41,7 +41,9 @@
   </div>
 
   <div class="md:hidden w-full">
-    <div class="bg-gray-200/90 w-full flex justify-end items-end px-4 py-6">
+    <div
+      class="backdrop-blur-xl bg-gray-50/50 w-full flex justify-end items-end px-4 py-6"
+    >
       <button
         on:click={() => {
           openMenu = !openMenu;
@@ -55,7 +57,7 @@
       <div
         in:fly={{ y: -10, duration: 300 }}
         out:fly={{ y: -10, duration: 300 }}
-        class="w-full bg-gray-200 text-center py-4 flex flex-col gap-4"
+        class="w-full backdrop-blur-xl bg-gray-50/50 text-center py-4 flex flex-col gap-4"
       >
         <a
           href="#home"
