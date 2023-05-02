@@ -10,26 +10,20 @@
   });
 
   let draw = false;
-  let image;
 </script>
 
 {#if draw}
   <section
     aria-label="Home"
-    in:fade={{ duration: 800 }}
     class="flex flex-col md:flex-row gap-6 justify-center items-center w-full"
   >
     <img
-      bind:this={image}
-      in:fade={{ duration: 800 }}
-      on:load={() => {
-        image.classList.add("opacity-one");
-      }}
-      class="opacity-zero transition-opacity ease-in duration-400 max-h-96 sm:px-10"
+      in:fade={{ duration: 900 }}
+      class="transition-opacity ease-in duration-400 max-h-96 sm:px-10"
       src="./111.png"
       alt="Avatar"
     />
-    <div class="w-full mt-2 sm:mt-0">
+    <div class="w-full mt-2 sm:mt-0" in:fade={{ duration: 800 }}>
       <h1>Name: Ebba Svensson</h1>
       <h2 class="mb-1">Role: Web developer</h2>
       <p>From: Sweden</p>
@@ -53,13 +47,12 @@
         <div class="flex flex-col gap-1 text-center w-full">
           <PercentageBar text="C#" level="Advanced" />
           <PercentageBar text="Solidity" level="Intermediate" />
-          <PercentageBar text="ASP.Net MVC" level="Advanced" />
           <PercentageBar text="Unity" level="Intermediate" />
-          <PercentageBar text="Azure DevOps" level="Intermediate" />
+          <PercentageBar text="Tailwind" level="Advanced" />
           <PercentageBar text="Javascript" level="Advanced" />
+          <PercentageBar text="Azure DevOps" level="Intermediate" />
         </div>
         <div class="flex flex-col gap-1 text-center w-full mt-2 md:mt-0">
-          <PercentageBar text="Tailwind" level="Advanced" />
           <PercentageBar text="Sveltekit" level="Advanced" />
           <PercentageBar text="HTML & CSS" level="Advanced" />
           <PercentageBar text="Responsive design" level="Advanced" />
