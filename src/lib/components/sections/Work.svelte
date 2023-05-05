@@ -27,12 +27,12 @@
   </div>
 
   <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-6">
-    <div class="px-8 py-10 bg-gray-900 text-gray-50 rounded-lg">
+    <div class="px-8 py-10 bg-neutral-900 text-neutral-50 rounded-lg">
       <div class="flex mt-4">
         <span class="mr-2"><Leaf /></span>
         <div>
           <h2>Fullstack developer at Sogeti</h2>
-          <p class="text-gray-400">
+          <p class="text-neutral-400">
             {getMonthsFromDate(new Date("02/01/2022"))}
           </p>
         </div>
@@ -54,19 +54,19 @@
           <span class="mr-2">•</span>
           <p>Updating websites to follow wcag guidlines.</p>
         </div>
-        <p class="mt-8 text-gray-400">
+        <p class="mt-8 text-neutral-400">
           Tools: C#, Javascript, HTML, CSS, .Net MVC, React, SQL Server, Azure
           DevOps, Optimizely
         </p>
       </div>
     </div>
 
-    <div class="px-8 py-10 bg-gray-900 text-gray-50 rounded-lg">
+    <div class="px-8 py-10 bg-neutral-900 text-neutral-50 rounded-lg">
       <div class="flex mt-4">
         <span class="mr-2"><Drop /></span>
         <div>
           <h2>Fullstack developer at Bonigi</h2>
-          <p class="text-gray-400">1.5 years</p>
+          <p class="text-neutral-400">1.5 years</p>
         </div>
       </div>
       <div class="mt-8">
@@ -95,19 +95,19 @@
             and strapi.
           </p>
         </div>
-        <p class="mt-8 text-gray-400">
+        <p class="mt-8 text-neutral-400">
           Tools: C#, SQL, Javascript, JQuery, HTML, CSS, .Net Webforms, Vue.Js,
           SQL Server, Azure DevOps, Azure functions
         </p>
       </div>
     </div>
 
-    <div class="px-8 py-10 bg-gray-900 text-gray-50 rounded-lg">
+    <div class="px-8 py-10 bg-neutral-900 text-neutral-50 rounded-lg">
       <div class="flex mt-4">
         <span class="mr-2"> <Gamepad /></span>
         <div>
           <h2>Web developer at ATH Games</h2>
-          <p class="text-gray-400">1 month</p>
+          <p class="text-neutral-400">1 month</p>
         </div>
       </div>
       <div class="mt-8">
@@ -117,18 +117,18 @@
             Built their website with Vue.Js and deployed it to google cloud.
           </p>
         </div>
-        <p class="mt-8 text-gray-400">
+        <p class="mt-8 text-neutral-400">
           Tools: Javascript, Figma, Vue.Js, Google cloud
         </p>
       </div>
     </div>
 
-    <div class="px-8 py-10 bg-gray-900 text-gray-50 rounded-lg">
+    <div class="px-8 py-10 bg-neutral-900 text-neutral-50 rounded-lg">
       <div class="flex mt-4">
         <span class="mr-2"><Factory /></span>
         <div>
           <h2>Software developer at Husqvarna</h2>
-          <p class="text-gray-400">6 months</p>
+          <p class="text-neutral-400">6 months</p>
         </div>
       </div>
 
@@ -140,7 +140,7 @@
             lawnmowers.
           </p>
         </div>
-        <p class="mt-8 text-gray-400">
+        <p class="mt-8 text-neutral-400">
           Tools: C#, Javascript, JQuery, HTML, CSS, WPF, Azure DevOps
         </p>
       </div>

@@ -3,7 +3,7 @@
   viewBox="0 96 960 960"
   width="60px"
   height="60px"
-  fill="#f9fafb"
+  fill="#b91c1c"
 >
   <title>Chat</title>
   <path

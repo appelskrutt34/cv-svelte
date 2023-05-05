@@ -22,27 +22,27 @@
 </script>
 
 <nav
-  class="w-full flex justify-center fixed top-0 md:backdrop-blur-xl md:bg-gray-50/50 z-50"
+  class="text-neutral-50 w-full flex justify-center fixed top-0 md:backdrop-blur-xl md:bg-neutral-900/50 z-50 md:border-b md:border-neutral-800"
   aria-label="Main navigation"
 >
   <div class="justify-center gap-16 container hidden md:flex px-4 py-6">
     <NavButton href="#home" text="Home" action={scrollIntoView}>
-      <Heart />
+      <Fire />
     </NavButton>
     <NavButton href="#projects" text="Projects" action={scrollIntoView}>
       <Fire />
     </NavButton>
     <NavButton href="#education" text="Education" action={scrollIntoView}>
-      <Medal />
+      <Fire />
     </NavButton>
     <NavButton href="#work" text="Work" action={scrollIntoView}>
-      <Portfolio />
+      <Fire />
     </NavButton>
   </div>
 
   <div class="md:hidden w-full">
     <div
-      class="backdrop-blur-xl bg-gray-50/50 w-full flex justify-end items-end px-4 py-6"
+      class="backdrop-blur-xl bg-neutral-900/50 w-full flex justify-end items-end px-4 py-6"
     >
       <button
         on:click={() => {
@@ -57,7 +57,7 @@
       <div
         in:fly={{ y: -10, duration: 300 }}
         out:fly={{ y: -10, duration: 300 }}
-        class="w-full backdrop-blur-xl bg-gray-50/50 text-center py-4 flex flex-col gap-4"
+        class="w-full backdrop-blur-xl bg-neutral-900/50 text-center py-4 flex flex-col gap-4"
       >
         <a
           href="#home"

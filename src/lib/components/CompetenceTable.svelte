@@ -10,31 +10,31 @@
   );
 </script>
 
-<div class="relative text-gray-900">
+<div class="relative text-neutral-900">
   <div class="search-icon">
     <Search />
   </div>
 
   <input
     bind:value={searchInput}
-    class="search-input rounded-md w-full border-gray-900 border focus:outline focus:outline-gray-900"
+    class="search-input rounded-md w-full border-neutral-900 border focus:outline focus:outline-neutral-900"
     type="text"
     aria-label="search for skill"
     placeholder="search"
   />
 </div>
 
-<div class="rounded-md border border-gray-900 w-full mt-4">
+<div class="rounded-md border border-neutral-900 w-full mt-4">
   <div
     class={(filtered.length > 0 ? "border-b " : "") +
-      "table-grid p-2 border-gray-900 px-4 "}
+      "table-grid p-2 border-neutral-900 px-4 "}
   >
     <h3 class="text-left w-full">Skill</h3>
     <h3 class="text-center w-full">Level</h3>
   </div>
 
   <div
-    class="px-4 focus:outline focus:outline-gray-900"
+    class="px-4 focus:outline focus:outline-neutral-900"
     style="max-height: 500px; overflow-y: scroll; "
   >
     {#each filtered as item, i}
@@ -43,7 +43,7 @@
           ? "border-none "
           : i == 0
           ? "mt-2 "
-          : "") + "table-grid w-full border-b p-2  border-gray-900 "}
+          : "") + "table-grid w-full border-b p-2  border-neutral-900 "}
       >
         <div class="items-center w-full flex">
           <p class="text-left w-full">{item.name}</p>

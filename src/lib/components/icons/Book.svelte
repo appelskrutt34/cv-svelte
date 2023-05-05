@@ -3,7 +3,7 @@
   viewBox="0 0 448 512"
   width="60px"
   height="60px"
-  fill="#19212e"
+  fill="#0369a1"
 >
   <title>Book</title>
   <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path

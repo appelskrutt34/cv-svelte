@@ -16,15 +16,24 @@
   <section
     in:fade={{ duration: 800 }}
     aria-label="Home"
-    class="flex flex-col md:flex-row gap-6 justify-center items-center w-full"
+    class="text-neutral-50 flex flex-col md:flex-row"
   >
-    <img class="rounded-sm max-h-96 sm:mx-10" src="./99.png" alt="Avatar" />
-    <div class="w-full mt-2 sm:mt-0">
+    <div class="md:w-2/3 flex justify-center md:justify-end">
+      <div>
+        <img
+          class="rounded-lg max-h-96 bg-neutral-50 sm:mr-10"
+          src="./99.png"
+          alt="Avatar"
+        />
+      </div>
+    </div>
+
+    <div class="mt-4 md:mt-0 w-full">
       <h1>Name: Ebba Svensson</h1>
-      <h2 class="mb-1">Role: Web developer</h2>
+      <h2>Role: Web developer</h2>
       <p>From: Sweden</p>
       <p>Age: 27</p>
-      <div class="flex mt-4 mb-4 gap-2">
+      <div class="flex mb-8 mt-2 gap-2">
         <a
           href="https://github.com/appelskrutt34"
           aria-label="Github"
@@ -36,24 +45,20 @@
           target="_blank"><Linkedin /></a
         >
       </div>
-      <div
-        class="md:flex md:flex-row gap-1 justify-center h-full w-full"
-        style="max-width: 550px;"
-      >
-        <div class="flex flex-col gap-1 text-center w-full">
+      <div class="sm:flex sm:flex-row gap-3">
+        <div class="flex flex-col gap-2 text-center w-full">
           <PercentageBar text="C#" level="Advanced" />
-          <PercentageBar text="Solidity" level="Intermediate" />
-          <PercentageBar text="Unity" level="Intermediate" />
+          <PercentageBar text="Solidity" level="Advanced" />
+          <PercentageBar text="Unity" level="Advanced" />
           <PercentageBar text="Tailwind" level="Advanced" />
           <PercentageBar text="Javascript" level="Advanced" />
-          <PercentageBar text="Azure DevOps" level="Intermediate" />
         </div>
-        <div class="flex flex-col gap-1 text-center w-full mt-2 md:mt-0">
+        <div class="flex flex-col gap-2 text-center w-full mt-2 sm:mt-0">
           <PercentageBar text="Sveltekit" level="Advanced" />
           <PercentageBar text="HTML & CSS" level="Advanced" />
           <PercentageBar text="Responsive design" level="Advanced" />
           <PercentageBar text="WCAG" level="Advanced" />
-          <PercentageBar text="React" level="Intermediate" />
+          <PercentageBar text=".Net" level="Advanced" />
         </div>
       </div>
     </div>

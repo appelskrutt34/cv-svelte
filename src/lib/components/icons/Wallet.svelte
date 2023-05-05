@@ -3,7 +3,7 @@
   viewBox="0 96 960 960"
   width="60px"
   height="60px"
-  fill="#19212e"
+  fill="#15803d"
 >
   <title>Wallet</title>
   <path

@@ -5,12 +5,10 @@
   import Work from "../lib/components/sections/Work.svelte";
 </script>
 
-<div
-  class="container flex justify-center items-center px-4 pt-32 sm:pt-0"
-  id="home"
-  style="min-height:100vh"
->
-  <Start />
+<div class="px-4 py-32 flex justify-center bg-neutral-900 w-full" id="home">
+  <div class="container">
+    <Start />
+  </div>
 </div>
 
 <div class="container pt-40 px-4" id="projects">
@@ -18,7 +16,7 @@
 </div>
 
 <div
-  class="mt-40 py-40 w-full px-4 bg-gray-900 flex justify-center"
+  class="mt-40 py-40 w-full px-4 bg-neutral-900 flex justify-center"
   id="education"
 >
   <Education />

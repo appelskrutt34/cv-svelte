@@ -8,12 +8,12 @@
 
 <section
   aria-label="Education"
-  class="flex justify-center text-center flex-col text-gray-50 container"
+  class="flex justify-center text-center flex-col text-neutral-50 container"
 >
   <h1 class="mb-8 text-4xl">EDUCATION</h1>
   <div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-6">
     <div
-      class="p-4 border bg-gray-50 text-gray-900 rounded-lg hover:shadow-lg flex justify-center items-center flex-col h-60"
+      class="p-4 border bg-neutral-50 text-neutral-900 rounded-lg hover:shadow-lg flex justify-center items-center flex-col h-60"
     >
       <Code />
       <h2 class="mt-4">Software development and Mobile apps</h2>
@@ -21,7 +21,7 @@
     </div>
 
     <div
-      class="p-8 border bg-gray-50 text-gray-900 rounded-lg flex justify-center items-center flex-col h-60"
+      class="p-8 border bg-neutral-50 text-neutral-900 rounded-lg flex justify-center items-center flex-col h-60"
     >
       <Unity />
 
@@ -30,7 +30,7 @@
     </div>
 
     <div
-      class="p-8 border bg-gray-50 text-gray-900 rounded-lg flex justify-center items-center flex-col h-60"
+      class="p-8 border bg-neutral-50 text-neutral-900 rounded-lg flex justify-center items-center flex-col h-60"
     >
       <Ethereum />
 
@@ -39,7 +39,7 @@
     </div>
 
     <div
-      class="p-8 border bg-gray-50 text-gray-900 rounded-lg flex justify-center items-center flex-col h-60"
+      class="p-8 border bg-neutral-50 text-neutral-900 rounded-lg flex justify-center items-center flex-col h-60"
     >
       <Socks />
       <h2 class="mt-4">Millitary training</h2>
@@ -47,7 +47,7 @@
     </div>
 
     <div
-      class="p-8 border bg-gray-50 text-gray-900 rounded-lg flex justify-center items-center flex-col h-60"
+      class="p-8 border bg-neutral-50 text-neutral-900 rounded-lg flex justify-center items-center flex-col h-60"
     >
       <Book />
       <h2 class="mt-4">Russian language</h2>

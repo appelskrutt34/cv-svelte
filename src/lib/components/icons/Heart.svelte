@@ -3,7 +3,7 @@
   viewBox="0 0 512 512"
   width="12px"
   height="12px"
-  fill="#dc2626"
+  fill="#fafafa"
 >
   <title>Heart</title
   ><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
