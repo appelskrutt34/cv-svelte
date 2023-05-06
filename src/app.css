@@ -28,9 +28,8 @@ p,ul,li {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
 }
-
 
 .opacity-one {
   opacity: 1 !important;

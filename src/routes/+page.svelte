@@ -5,8 +5,8 @@
   import Work from "../lib/components/sections/Work.svelte";
 </script>
 
-<div class="px-4 py-32 flex justify-center bg-neutral-900 w-full" id="home">
-  <div class="container">
+<div class="py-32 flex justify-center bg-neutral-900 w-full" id="home">
+  <div class="container px-4">
     <Start />
   </div>
 </div>
@@ -16,10 +16,12 @@
 </div>
 
 <div
-  class="mt-40 py-40 w-full px-4 bg-neutral-900 flex justify-center"
+  class="mt-40 py-40 w-full bg-neutral-900 flex justify-center"
   id="education"
 >
-  <Education />
+  <div class="container px-4">
+    <Education />
+  </div>
 </div>
 
 <div class="container pt-40 px-4" id="work">

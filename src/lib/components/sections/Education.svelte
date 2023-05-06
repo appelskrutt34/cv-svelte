@@ -51,7 +51,7 @@
     >
       <Book />
       <h2 class="mt-4">Russian language</h2>
-      <p>Dalarnas högskola</p>
+      <p>Velikij Novgorod university</p>
     </div>
   </div>
 </section>

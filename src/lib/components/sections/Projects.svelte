@@ -1,70 +1,63 @@
 <script>
   import Api from "$lib/components/icons/Api.svelte";
-  import Bars from "$lib/components/icons/Bars.svelte";
-  import Chat from "$lib/components/icons/Chat.svelte";
-  import Profile from "$lib/components/icons/Profile.svelte";
-  import Wallet from "$lib/components/icons/Wallet.svelte";
+  import Crow from "$lib/components/icons/Crow.svelte";
+  import Worm from "$lib/components/icons/Worm.svelte";
+  import Shrimp from "$lib/components/icons/Shrimp.svelte";
+  import Kiwi from "$lib/components/icons/Kiwi.svelte";
+  import LinkBox from "../LinkBox.svelte";
+  import Fish from "../icons/Fish.svelte";
 </script>
 
 <section aria-label="Projects" class="flex justify-center text-center flex-col">
   <h1 class="mb-8 text-4xl">PROJECTS</h1>
 
   <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-6">
-    <a
-      target="_blank"
-      href="https://xkr.mjovanc.com/monitor"
-      aria-label="Kryptokrona api"
-      class="p-8 border border-neutral-900 rounded-lg hover:shadow-lg hover:shadow-neutral-500/50 flex justify-center items-center flex-col transition ease-in-out duration-400 h-60"
+    <LinkBox
+      title="Kryptokrona explorer"
+      text="Role: Sveltekit developer"
+      tools="# Sveltekit, apexcharts"
+      link="https://explorer.kryptokrona.org/"
+      ><Shrimp />
+    </LinkBox>
+
+    <LinkBox
+      title="Kryptokrona api"
+      text="Role: Sveltekit developer"
+      tools="# Sveltekit, Prometheus, Github api, apexcharts, Docker"
+      link="https://xkr.mjovanc.com/monitor"
     >
       <Api />
-      <h2>Kryptokrona api</h2>
-      <p>Role: Solo Sveltekit developer</p>
-    </a>
-
-    <a
-      target="_blank"
-      href="https://explorer.kryptokrona.org/"
-      aria-label="Kryptokrona explorer"
-      class="p-8 border bg-neutral-900 text-neutral-50 rounded-lg hover:shadow-lg hover:shadow-neutral-500/50 flex justify-center items-center flex-col transition ease-in-out duration-400 h-60"
+    </LinkBox>
+    <LinkBox
+      title="Kryptokrona Kotlin SDK"
+      text="Role: Sveltekit developer"
+      tools="# Sveltekit, Sveltepress, Docker, Vercel"
+      link="https://kryptokrona-kotlin-sdk.vercel.app"
     >
-      <Bars />
-      <h2>Kryptokrona explorer</h2>
-      <p>Role: Sveltekit developer</p>
-    </a>
+      <Kiwi />
+    </LinkBox>
 
-    <a
-      target="_blank"
-      href="https://github.com/kryptokrona/yggdrasil-wallet"
-      aria-label="Yggdrasil wallet"
-      class="p-8 border border-neutral-900 rounded-lg hover:shadow-lg hover:shadow-neutral-500/50 flex justify-center items-center flex-col transition ease-in-out duration-400 h-60"
+    <LinkBox
+      title="Yggdrasil wallet"
+      text="Role: Sveltekit developer"
+      tools="# Sveltekit, apexcharts"
+      link="https://github.com/kryptokrona/yggdrasil-wallet"
     >
-      <Wallet />
-      <h2>Yggdrasil wallet</h2>
-      <p>Role: Sveltekit developer</p>
-    </a>
-
-    <a
-      target="_blank"
-      href="https://hugin.chat/"
-      aria-label="Hugin"
-      class="p-8 border bg-neutral-900 text-neutral-50 rounded-lg hover:shadow-lg hover:shadow-neutral-500/50 flex justify-center items-center flex-col transition ease-in-out duration-400 h-60"
+      <Fish /></LinkBox
     >
-      <Chat />
 
-      <h2>Hugin messenger</h2>
-      <p>Role: Sveltekit developer</p>
-    </a>
-
-    <a
-      target="_blank"
-      href="https://www.cvebba.com"
-      aria-label="cv"
-      class="p-8 border border-neutral-900 rounded-lg hover:shadow-lg hover:shadow-neutral-500/50 flex justify-center items-center flex-col transition ease-in-out duration-400 h-60"
+    <LinkBox
+      title="Hugin Messenger"
+      text="Role: Sveltekit developer"
+      tools="# Sveltekit"
+      link="https://hugin.chat/"><Worm /></LinkBox
     >
-      <Profile />
 
-      <h2>Old CV</h2>
-      <p>Made with React</p>
-    </a>
+    <LinkBox
+      title="Old CV"
+      text="Made with react"
+      link="https://www.cvebba.com"
+      tools="# React"><Crow /></LinkBox
+    >
   </div>
 </section>

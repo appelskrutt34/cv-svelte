@@ -55,7 +55,7 @@
           <p>Updating websites to follow wcag guidlines.</p>
         </div>
         <p class="mt-8 text-neutral-400">
-          Tools: C#, Javascript, HTML, CSS, .Net MVC, React, SQL Server, Azure
+          # Javascript, C#, HTML, CSS, .Net MVC, React, SQL Server, Azure
           DevOps, Optimizely
         </p>
       </div>
@@ -96,8 +96,8 @@
           </p>
         </div>
         <p class="mt-8 text-neutral-400">
-          Tools: C#, SQL, Javascript, JQuery, HTML, CSS, .Net Webforms, Vue.Js,
-          SQL Server, Azure DevOps, Azure functions
+          # SQL, C#, Javascript, JQuery, HTML, CSS, .Net Webforms, Vue.Js, SQL
+          Server, Azure DevOps, Azure functions
         </p>
       </div>
     </div>
@@ -118,7 +118,7 @@
           </p>
         </div>
         <p class="mt-8 text-neutral-400">
-          Tools: Javascript, Figma, Vue.Js, Google cloud
+          # Javascript, Figma, Vue.Js, Google cloud
         </p>
       </div>
     </div>
@@ -141,7 +141,7 @@
           </p>
         </div>
         <p class="mt-8 text-neutral-400">
-          Tools: C#, Javascript, JQuery, HTML, CSS, WPF, Azure DevOps
+          # Javascript, C#, JQuery, HTML, CSS, WPF, Azure DevOps
         </p>
       </div>
     </div>

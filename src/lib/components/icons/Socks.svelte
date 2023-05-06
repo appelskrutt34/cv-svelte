@@ -1,9 +1,9 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 512 512"
-  width="60px"
-  height="60px"
-  fill="#c2410c"
+  width="40px"
+  height="40px"
+  fill="#0369a1"
 >
   <title>Socks</title>
   <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
