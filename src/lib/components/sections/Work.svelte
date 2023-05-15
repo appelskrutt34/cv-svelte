@@ -97,7 +97,7 @@
         </div>
         <p class="mt-8 text-neutral-400">
           # SQL, C#, Javascript, JQuery, HTML, CSS, .Net Webforms, Vue.Js, SQL
-          Server, Azure DevOps, Azure functions
+          Server, Azure DevOps, Azure functions, Strapi
         </p>
       </div>
     </div>
