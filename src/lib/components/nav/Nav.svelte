@@ -42,7 +42,7 @@
 
   <div class="md:hidden w-full">
     <div
-      class="backdrop-blur-xl bg-neutral-900/50 w-full flex justify-end items-end px-4 py-6"
+      class="bg-neutral-900 w-full flex justify-end items-end px-4 py-6 border-b border-neutral-800"
     >
       <button
         on:click={() => {
@@ -57,7 +57,8 @@
       <div
         in:fly={{ y: -10, duration: 300 }}
         out:fly={{ y: -10, duration: 300 }}
-        class="w-full backdrop-blur-xl bg-neutral-900/50 text-center py-4 flex flex-col gap-4"
+        class="w-full bg-neutral-900 text-center py-4 flex flex-col gap-4 border-b border-neutral-800"
+        style="margin-top: -2px"
       >
         <a
           href="#home"
