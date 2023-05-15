@@ -5,7 +5,7 @@
   import Work from "../lib/components/sections/Work.svelte";
 </script>
 
-<div class="py-32 flex justify-center bg-neutral-900 w-full" id="home">
+<div class="py-48 flex justify-center bg-neutral-900 w-full" id="home">
   <div class="container px-4">
     <Start />
   </div>
