@@ -11,7 +11,9 @@
 <section aria-label="Projects" class="flex justify-center text-center flex-col">
   <h1 class="mb-8 text-4xl">PROJECTS</h1>
 
-  <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-6">
+  <div
+    class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+  >
     <LinkBox
       title="Kryptokrona explorer"
       text="Role: Sveltekit developer"
