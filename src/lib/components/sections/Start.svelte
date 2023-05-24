@@ -5,22 +5,22 @@
 </script>
 
 <section aria-label="Home" class="text-neutral-50 flex flex-col md:flex-row">
-  <div class="md:w-2/3 flex justify-center md:justify-end">
+  <div class="md:w-2/3 flex justify-center lg:justify-end">
     <div>
       <img
-        class="rounded-lg max-h-96 bg-neutral-50 sm:mr-10"
+        class="rounded-lg max-h-72 md:max-h-96 bg-neutral-50 sm:mr-10"
         src="./99.png"
         alt="Avatar"
       />
     </div>
   </div>
 
-  <div class="mt-4 md:mt-0 w-full">
+  <div class="mt-8 md:mt-0 w-full text-center sm:text-left">
     <h1>Name: Ebba Svensson</h1>
     <h2>Role: Web developer</h2>
     <p>From: Sweden</p>
     <p>Age: 27</p>
-    <div class="flex mb-8 mt-2 gap-2">
+    <div class="flex mb-8 mt-2 gap-2 justify-center sm:justify-start">
       <a
         href="https://github.com/appelskrutt34"
         aria-label="Github"
@@ -32,7 +32,7 @@
         target="_blank"><Linkedin /></a
       >
     </div>
-    <div class="sm:flex sm:flex-row gap-3">
+    <div class="sm:flex sm:flex-row gap-3 lg:w-4/5">
       <div class="flex flex-col gap-2 text-center w-full">
         <PercentageBar text="C#" level="Advanced" />
         <PercentageBar text="Solidity" level="Advanced" />
