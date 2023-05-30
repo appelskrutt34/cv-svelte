@@ -1,34 +1,17 @@
 <script>
-  import { fade } from "svelte/transition";
-
   export let href = "";
   export let text;
-  export let showIcon = false;
   export let action;
 </script>
 
 <a
   {href}
   aria-label={text}
-  class="w-min relative"
-  on:mouseenter={() => (showIcon = true)}
-  on:mouseleave={() => (showIcon = false)}
+  class="w-min relative group transition duration-200 hover:text-neutral-400"
   on:click|preventDefault={action}
   >{text}
 
-  {#if showIcon}
-    <span
-      aria-hidden="true"
-      transition:fade
-      class="tooltip flex justify-center absolute left-0 right-0 margin-auto"
-    >
-      <slot />
-    </span>
-  {/if}
+  <span
+    class="block opacity-0 group-hover:opacity-100 transition-all duration-200 h-0.5 bg-violet-700"
+  />
 </a>
-
-<style>
-  .tooltip {
-    top: -0.9em;
-  }
-</style>

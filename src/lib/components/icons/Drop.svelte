@@ -1,11 +1,28 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 384 512"
+  fill="none"
+  viewBox="0 0 14 14"
   width="30px"
   height="30px"
-  fill="#0369a1"
-  ><title>Drop</title>
-  <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
-    d="M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0h1.8c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z"
+  ><path
+    stroke="#0369a1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M7.00004 13.1774L12.6829 13.1774C11.8409 9.65154 10.2796 6.17253 7.53682 4.08582C7.21907 3.84407 6.78099 3.84405 6.46323 4.08578C3.72043 6.17226 2.15921 9.65142 1.31724 13.1772L7.00004 13.1774Z"
+  /><path
+    stroke="#0369a1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M7.61206 4.14893L5.5225 2.05936"
+  /><path
+    stroke="#0369a1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M7 13.1775L7 10.2224"
+  /><path
+    stroke="#0369a1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M6.36169 4.14893L8.45126 2.05936"
   /></svg
 >
