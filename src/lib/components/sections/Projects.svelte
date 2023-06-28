@@ -54,12 +54,5 @@
       tools="# Sveltekit"
       link="https://hugin.chat/"><Worm /></LinkBox
     >
-
-    <LinkBox
-      title="Old CV"
-      text="Made with react"
-      link="https://www.cvebba.com"
-      tools="# React"><Crow /></LinkBox
-    >
   </div>
 </section>
