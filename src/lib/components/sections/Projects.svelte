@@ -6,6 +6,7 @@
   import Kiwi from "$lib/components/icons/Kiwi.svelte";
   import LinkBox from "../LinkBox.svelte";
   import Fish from "../icons/Fish.svelte";
+  import Kryptokrona from "../icons/Kryptokrona.svelte";
 </script>
 
 <section aria-label="Projects" class="flex justify-center text-center flex-col">
@@ -14,6 +15,16 @@
   <div
     class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
   >
+
+  
+  <LinkBox
+  title="Kryptokrona.org"
+  text="Role: Sveltekit developer"
+  tools="# Sveltekit, directus"
+  link="https://www.kryptokrona.org"
+  ><Kryptokrona></Kryptokrona>
+</LinkBox>
+
     <LinkBox
       title="Kryptokrona explorer"
       text="Role: Sveltekit developer"

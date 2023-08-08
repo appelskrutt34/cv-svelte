@@ -1,11 +1,7 @@
 <script>
-  import Heart from "$lib/components/icons/Heart.svelte";
-  import Medal from "../icons/Medal.svelte";
-  import Portfolio from "../icons/Portfolio.svelte";
   import NavButton from "./NavButton.svelte";
-  import Fire from "../icons/Fire.svelte";
   import Burger from "../icons/Burger.svelte";
-  import { fly } from "svelte/transition";
+  import { fly, slide } from "svelte/transition";
   import XMark from "../icons/XMark.svelte";
 
   let openMenu = false;
@@ -27,16 +23,12 @@
 >
   <div class="justify-center gap-16 container hidden md:flex px-4 py-6">
     <NavButton href="#home" text="Home" action={scrollIntoView}>
-      <Fire />
     </NavButton>
     <NavButton href="#projects" text="Projects" action={scrollIntoView}>
-      <Fire />
     </NavButton>
     <NavButton href="#education" text="Education" action={scrollIntoView}>
-      <Fire />
     </NavButton>
     <NavButton href="#work" text="Work" action={scrollIntoView}>
-      <Fire />
     </NavButton>
   </div>
 
@@ -55,8 +47,8 @@
 
     {#if openMenu}
       <div
-        in:fly={{ y: -10, duration: 300 }}
-        out:fly={{ y: -10, duration: 300 }}
+        in:slide={{ y: -10, duration: 300 }}
+        out:slide={{ y: -10, duration: 300 }}
         class="w-full bg-neutral-900 text-center py-4 flex flex-col gap-4 border-b border-neutral-800"
         style="margin-top: -2px"
       >
