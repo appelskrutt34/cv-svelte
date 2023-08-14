@@ -4,13 +4,14 @@
   import Linkedin from "$lib/components/icons/Linkedin.svelte";
 </script>
 
-<section aria-label="Home" class="text-neutral-50 flex flex-col md:flex-row">
+<div aria-label="Home" class="text-neutral-50 flex flex-col md:flex-row">
   <div class="md:w-2/3 flex justify-center lg:justify-end">
-    <div>
+    <div class="flex items-center">
       <img
-        class="rounded-lg max-h-72 md:max-h-96 bg-neutral-50 sm:mr-10"
-        src="./99.png"
-        alt="Avatar"
+        style="object-position: top;"
+        class="rounded-full object-cover border-2 border-white h-60 w-60 sm:mr-10"
+        src="./ebbasvensson.jpeg"
+        alt="Ebba svensson"
       />
     </div>
   </div>
@@ -49,4 +50,4 @@
       </div>
     </div>
   </div>
-</section>
+</div>

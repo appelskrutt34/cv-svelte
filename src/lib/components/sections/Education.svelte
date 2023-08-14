@@ -6,7 +6,7 @@
   import Book from "../icons/Book.svelte";
 </script>
 
-<section
+<div
   aria-label="Education"
   class="flex justify-center text-center flex-col text-neutral-50 container"
 >
@@ -54,4 +54,4 @@
       <p>Velikij Novgorod university</p>
     </div>
   </div>
-</section>
+</div>

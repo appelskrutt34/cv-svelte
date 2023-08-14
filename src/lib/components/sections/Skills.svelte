@@ -1,18 +1,9 @@
 <script>
   import { tools } from "$lib/data/data.js";
   import CompetenceTable from "$lib/components/CompetenceTable.svelte";
-  import { fade } from "svelte/transition";
-  import { onMount } from "svelte";
-  onMount(() => {
-    draw = true;
-  });
-
-  let draw = false;
 </script>
 
-{#if draw}
-  <section
-    in:fade
+  <div
     aria-label="Skills"
     class="flex flex-col justify-center text-center"
   >
@@ -22,5 +13,5 @@
         <CompetenceTable data={tools} />
       </div>
     </div>
-  </section>
-{/if}
+  </div>
+

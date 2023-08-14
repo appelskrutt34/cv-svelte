@@ -17,7 +17,7 @@
   };
 </script>
 
-<section
+<div
   id="work"
   aria-label="Work history"
   class="flex justify-center text-left flex-col container"
@@ -146,4 +146,4 @@
       </div>
     </div>
   </div>
-</section>
+</div>

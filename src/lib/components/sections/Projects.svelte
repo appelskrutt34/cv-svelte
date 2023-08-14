@@ -9,7 +9,7 @@
   import Kryptokrona from "../icons/Kryptokrona.svelte";
 </script>
 
-<section aria-label="Projects" class="flex justify-center text-center flex-col">
+<div aria-label="Projects" class="flex justify-center text-center flex-col">
   <h1 class="mb-8 text-4xl">PROJECTS</h1>
 
   <div
@@ -66,4 +66,4 @@
       link="https://hugin.chat/"><Worm /></LinkBox
     >
   </div>
-</section>
+</div>
