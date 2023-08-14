@@ -20,7 +20,7 @@
     <h1>Name: Ebba Svensson</h1>
     <h2>Role: Web developer</h2>
     <p>From: Sweden</p>
-    <p>Age: 27</p>
+    <p>Age: 28</p>
     <div class="flex mb-8 mt-2 gap-2 justify-center sm:justify-start">
       <a
         href="https://github.com/appelskrutt34"
